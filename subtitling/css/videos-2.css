@@ -1,0 +1,43 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+    z-index: 10;
+  }
+  
+  
+  .header_menu {
+    text-align: right;
+    
+  }
+  
+  .header_menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 12px;
+  }
+  
+  .header_menu ul li a {
+    color: #3ebcfe;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+  
+  .header_menu ul li a:hover {
+    color: #000;
+  }
+  
+  .header_menu ul li a.menu_ativo {
+    color: #000;
+  }
+
+  /* video */
+  .line-videos {
+      width: 100%;
+  }
